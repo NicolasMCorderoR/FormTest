@@ -3,21 +3,22 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Practica Listado de Inscripciones</title>
+    <title>Inscripciones</title>
 </head>
 <body>
-    <h1>Formulario de Inscripcion:</h1>
-    <form id="form-people">
-        <label for="name">Nombre:</label>
-        <input id="name" type="text" name="name">
-        <label for="age">Edad:</label>
-        <input id="age" type="number" name="age">
-        <label for="cry">Miedo:</label>
-        <input id="cry" type="text" name="cry">
-        <button type="submit">Guardar</button>
+    <button onclick="theme_bKC()" type="button" id="b-theme">Dark</button>
+    <h1> Formulario de Inscripcion:</h1>
+    <form id="form-p">
+        <label for="name-p">Nombre:</label>
+        <input type="text" name="name" id="name-p">
+        <label for="age-p">Edad:</label>
+        <input type="number" name="age" id="age-p">
+        <label for="cry-p">Miedo:</label>
+        <input type="text" name="cry" id="cry-p">
+        <button type="submit">Enviar</button>
     </form>
-    <h2>Listado de Personas Solicitantes:</h2>
-    <ol id="list-people">
+    <h2>Lista de Inscripciones:</h2>
+    <ol id="lists-p">
     </ol>
 
     <script src="./app.js"></script>
